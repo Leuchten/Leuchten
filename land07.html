@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Landscapes</title>
+    <link rel="stylesheet" type="text/css" href="roll.css">
+    <style>
+        * {
+            color: white;
+            font-family: NanumGothic;
+        }
+
+        body {
+            background-color: rgba(255,255,255,0.3);
+        }
+
+        .main {
+            margin: 10px;
+            padding: 10px;
+        }
+        .button {
+            align-content: center;
+            width: 60px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 15px;
+            color: black;
+        }
+
+        img {
+            background-color: rgba(255,255,255,0.3);
+        }
+        #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+    <script src="shuffleText.js"></script>
+    <script src="shuffleScript.js"></script>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <img alt="Photo" class="img" src="image/landscapes/land07.jpg" width="1000">
+            <br>
+            <h3 class="photoinfo">사진설명</h3>
+            <br />
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="photoinfo">촬영날짜: </td>
+                        <td class="photoinfo">2014년 5월 16일</td>
+                    </tr>
+                    <tr>
+                        <td class="photoinfo">촬영장소: </td>
+                        <td class="photoinfo">서울특별시 광진구 자양동 한강변 도로</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <a href="#" data-rel="back"><input class="button" type="button" value="목록" name="list" /></a>
+        </div>
+    </section>
+</body>
+</html>
